@@ -1,7 +1,7 @@
 {
   "name": "node-primecoin",
   "description": "Communicate with primecoind via JSON-RPC",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "keywords": [
     "primecoin",
