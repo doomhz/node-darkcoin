@@ -1,7 +1,7 @@
 
-var primecoin = require('./lib');
+var darkcoin = require('./lib');
 
-var client = new primecoin.Client({
+var client = new darkcoin.Client({
   host: 'localhost',
   port: 15715,
   user: 'yourusername',

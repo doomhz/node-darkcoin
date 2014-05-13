@@ -1,16 +1,16 @@
-# node-primecoin
+# node-darkcoin
 
-node-primecoin is a simple wrapper for the primecoin client's JSON-RPC API.
+node-darkcoin is a simple wrapper for the darkcoin client's JSON-RPC API.
 
 ## Install
 
-`npm install node-primecoin`
+`npm install node-darkcoin`
 
 ## Examples
 
 ### Create client
 ```js
-var client = new primecoin.Client({
+var client = new darkcoin.Client({
   host: 'localhost',
   port: 15715,
   user: 'username',
@@ -54,18 +54,18 @@ client.cmd(batch, function(err, address) {
 ## SSL
 See [Enabling SSL on original client](https://en.bitcoin.it/wiki/Enabling_SSL_on_original_client_daemon).
 
-If you're using this to connect to primecoind across a network it is highly
+If you're using this to connect to darkcoind across a network it is highly
 recommended to enable `ssl`, otherwise an attacker may intercept your RPC credentials
-resulting in theft of your primecoins.
+resulting in theft of your darkcoins.
 
 When enabling `ssl` by setting the configuration option to `true`, the `sslStrict`
 option (verifies the server certificate) will also be enabled by default. It is 
-highly recommended to specify the `sslCa` as well, even if your primecoind has
+highly recommended to specify the `sslCa` as well, even if your darkcoind has
 a certificate signed by an actual CA, to ensure you are connecting
-to your own primecoind.
+to your own darkcoind.
 
 ```js
-var client = new primecoin.Client({
+var client = new darkcoin.Client({
   host: 'localhost',
   port: 15715,
   user: 'username',

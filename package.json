@@ -1,10 +1,10 @@
 {
-  "name": "node-primecoin",
-  "description": "Communicate with primecoind via JSON-RPC",
+  "name": "node-darkcoin",
+  "description": "Communicate with darkcoind via JSON-RPC",
   "version": "1.0.2",
   "main": "lib/index.js",
   "keywords": [
-    "primecoin",
+    "darkcoin",
     "rpc"
   ],
   "author": "Dumitru Glavan <contact@dumitruglavan.com>",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/doomhz/node-primecoin.git"
+    "url": "git://github.com/doomhz/node-darkcoin.git"
   },
   "engines": {
     "node": ">= 0.8.0"
